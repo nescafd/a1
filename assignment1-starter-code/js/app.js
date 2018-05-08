@@ -13,7 +13,7 @@ angular.module('LunchCheck',[])
       {
         $scope.message = "Please enter data first"
       } else {
-        $scope.message = ($scope.lunch.split(",").length > 4 ) ? "Too much!" : "Enjoy!";
+        $scope.message = ($scope.lunch.split(",").length > 3) ? "Too much!" : "Enjoy!";
       }
 
     };
